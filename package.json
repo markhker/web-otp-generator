@@ -1,7 +1,7 @@
 {
-  "name": "otp-generator",
-  "version": "4.0.1",
-  "description": "One time password generator",
+  "name": "@karimdev/web-otp-generator",
+  "version": "1.0.0",
+  "description": "One time password generator, web crypto",
   "main": "index.js",
   "engines": {
     "node": ">=14.10.0"
@@ -12,25 +12,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Maheshkumar-Kakade/otp-generator.git"
+    "url": "https://github.com/markhker/web-otp-generator.git"
   },
   "bugs": {
-    "url": "https://github.com/Maheshkumar-Kakade/otp-generator/issues"
+    "url": "https://github.com/markhker/web-otp-generator/issues"
   },
-  "homepage": "https://github.com/Maheshkumar-Kakade/otp-generator#readme",
+  "homepage": "https://github.com/markhker/web-otp-generator#readme",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/Maheshkumar-Kakade/otp-generator/LICENSE"
+      "url": "https://github.com/markhker/web-otp-generator/LICENSE"
     }
   ],
   "keywords": [
     "OTP",
     "password-generator",
     "password",
-    "generator"
+    "generator",
+    "web"
   ],
-  "author": "Maheshkumar Kakade <maheshkumarkakade@gmail.com>",
+  "author": "Mark Hkr <markhker@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "coveralls": "^3.1.1",
