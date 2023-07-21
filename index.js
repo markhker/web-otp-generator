@@ -1,6 +1,8 @@
 /**
  * Generate password from allowed word
  */
+const crypto = require('crypto-js')
+
 const digits = '0123456789'
 const lowerCaseAlphabets = 'abcdefghijklmnopqrstuvwxyz'
 const upperCaseAlphabets = lowerCaseAlphabets.toUpperCase()

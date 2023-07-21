@@ -1,6 +1,6 @@
 {
   "name": "@karimdev/web-otp-generator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "One time password generator, web crypto",
   "main": "index.js",
   "engines": {
@@ -39,5 +39,8 @@
     "nyc": "^15.1.0",
     "should": "^13.2.3",
     "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
   }
 }
