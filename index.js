@@ -15,7 +15,7 @@ function getRandomInt (min, max) {
     crypto.getRandomValues(randomBytes) // eslint-disable-line
     const randomNumber = randomBytes[0]
 
-    randomInt = Math.floor((randomNumber / 256) * (range + 1)) + min
+    randomInt = Math.floor((randomNumber / 256) * range) + min
   } else if (typeof require !== 'undefined') {
     const crypto = require('crypto')
     randomInt = crypto.randomInt(min, max)
